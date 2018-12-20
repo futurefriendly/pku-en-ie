@@ -1,0 +1,23 @@
+/* lt IE8 fix */
+
+.ico_information,
+.ico_information i,
+.ico_information_s,
+.ico_plat,
+.carousel-indicators li,
+.icon-prev,
+.icon-next{ background-image:url(../images/sprite_s_141218.png);}
+.ico_information_s{ background-image:url(../images/sprite_xs_141218.png);}
+
+.m_information .item{ *zoom:1;}
+.m_information .item .ico_information{ *display:none}
+.m_information .item .desc{ *display:block}
+
+.e_slide-small .info{ overflow:hidden; min-height:100%}
+.e_slide-big .info{ overflow:hidden; min-height:180px;}
+
+@media (max-width: 768px) {
+
+.e_slide-big .info{ height:auto;}
+
+}
